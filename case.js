@@ -1,7 +1,10 @@
 const userName = 'blackPink';
 const userInput = 'blackPinK';
 
-if(userName === userInput){
+console.log(userName.toLowerCase());
+console.log(userInput.toUpperCase());
+
+if(userName.toLowerCase() === userInput.toLowerCase()){
     console.log('Valid User');
 }
 else{
